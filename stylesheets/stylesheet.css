@@ -315,6 +315,14 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#bannerimage {
+  width: 100%;
+  background-image: url(https://robmakepeace.github.io/assets/stalker.jpg);
+  height: 405px;
+  background-color: white;
+  background-position: center;
+}
+
 #downloads {
   position: absolute;
   width: 210px;

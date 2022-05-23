@@ -301,18 +301,26 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color: #000;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
-  color: #fff;
+  color: #000;
   font-size: 24px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+}
+
+#bannerimage {
+  width: 100%;
+  height: auto;
+  background-image: url(https://robmakepeace.github.io/assets/stalker.jpg);
+  background-color: white;
+  background-position: center;
 }
 
 #downloads {

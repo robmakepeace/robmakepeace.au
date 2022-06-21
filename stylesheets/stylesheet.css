@@ -492,9 +492,10 @@ article a:hover  {
 }
 
 .cardTitle {
-   font-weight: bold;
-   text-transform: capitalize;
-   font-size: 100%;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 100%;
+	color:#ffffff;   
 }
 
 .cardImage {

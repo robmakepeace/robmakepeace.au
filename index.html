@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+	<!--w3c-->
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Robert Makepeace">
+	<meta name="title" content="Rob Makepeace">	
+    <meta name="description" content="Rob Makepeace">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<!--schema.org-->
+	<meta property="schema:name" content="Rob Makepeace">
+	<meta property="schema:description" content="Rob Makepeace">
+
+	<!-- opengraph-->
+	<meta property="og:title" content="Rob Makepeace">
+	<meta property="og:description" content="Rob Makepeace">
+
+	<!-- linkedin -->
+	<meta name="author" content="Rob Makepeace">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.robmakepeace.au/" /> <!-- end with / -->
+
+
+	<!-- image path must be full, absolute -->
+	<meta property="og:image" content="https://robmakepeace.au/assets/stalker.jpg" />
+	<meta property="og:image:width" content="961" />
+	<meta property="og:image:height" content="667" />
+	<meta property="og:image:alt" content="Antarctic Landscape" />
+
+	<meta property="og:author" content="Rob Makepeace" />
+	<meta property="og:site_name" content="Rob Makepeace" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+
+	<link rel="icon" href="assets/thumbnail.png">   
+    
+	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Robert Makepeace</title>
   </head>
@@ -14,45 +46,203 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-			<a id="forkme_banner" href="https://github.com/robmakepeace/">View on GitHub</a>		
-			<h1 id="project_title">Robert Makepeace</h1>
+			<!--<a id="forkme_banner" href="https://github.com/robmakepeace/">View on GitHub</a>-->>	
+			<img src="assets/Rob.png" id="profilePic" class="appear" width="300" height="300" alt="Picture of Rob Makepeace">
+			<h1 id="project_title">Rob Makepeace</h1>
 			<h2 id="project_tagline">Intrepid Engineer</h2>
+			<p id="profileLinks">
+				<a class="socials" target="_blank" href="https://linkedin.com/in/robert-makepeace">
+					<img class="logo" src="assets/linkedin.png" alt="" width="21" height="21"/> /robert-makepeace
+				</a>
+				|
+				<a class="socials" target="_blank" href="https://github.com/robmakepeace/">
+					<img class="logo" src="assets/github.png" alt="" width="21" height="21"/> /robmakepeace
+				</a>
+			</p>
         </header>
     </div>
        
-!-- MAIN CONTENT -->
+<!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-		<section id="main_content" class="inner">
-			<img src="assets/wattslake.JPG" alt="Rob In Antarctica">
-       
-			<h2><a id="database" class="anchor" href="#database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Antarctica - Davis Station and the Vestfold Hills</h2></h2>
-			<p><a href="./Antarctica.html">Antarctica</a></p>    
-    
-			<h2><a id="database" class="anchor" href="#database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solar Cars</h2></h2>
-			<p><a href="./solarcars.html">Solar Cars</a></p>
-  
-			<h2><a id="database" class="anchor" href="#database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projects</h2></h2>
-			<p><a href="./GreenHydrogen">Exporting Green Hydrogen</a></p>  
-			<p><a href="./taskanalysis">Task Analysis</a></p>
-			<p><a href="./ProbabilisticChess">Probabilistic Chess</a></p>
-			<p><a href="./AustralianElo">Australian Sports Predictions</a></p>  
-			<p><a href="./SignalProcessingCup">Signal Processing Cup - PPG</a></p>  
-			<p><a href="./NeurodegenerationClassification">Automatic Neurodegeneration Classification</a></p>  
-
-			<h2><a id="database" class="anchor" href="#database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Articles</h2></h2>
-			<p><a href="./blog.html">Blog</a></p> 
-
-			<h2><a id="database" class="anchor" href="#database" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h2></h2>
-			<p><a href="./About.html">About</a></p>
-			
-			<h2><a id="database" class="anchor" href="#database" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h2></h2>
-			<p><a href="./Contact.html">Contact</a></p>
-			<p><a href="https://www.linkedin.com/in/robert-makepeace/">Linkedin</a></p>
-			
-			<img src="assets/stalker.jpg" alt="Stalker Hill">
-      </section>
+		<div class="cardContainer appear" >
+			<article>
+			<a href="./Antarctica.html">
+			  <div class="card">
+				 <img
+					src="assets/antarctica.png"
+					alt="Southern Lights"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					 <h3 class="cardTitle">Antarctica</h3>
+					 <p class="cardDesc">Photos and Videos from my year living in Antartica</p>
+				 </div>
+			  </div>
+			</a>
+			</article>
+			<article>
+			<a href="./solarcars.html">
+			  <div class="card">
+				 <img
+					src="assets/sunswift.png"
+					alt="Southern Lights"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					 <h3 class="cardTitle">Sunswift Solar Car</h3>
+					 <p class="cardDesc">Photos and Videos from my time building and racing solar powered vehicles</p>
+				 </div>
+			  </div>
+			</a>
+			</article>
+			<article>		
+			<a href="./GreenHydrogen">
+			  <div class="card">
+				 <img
+					src="assets/GreenHydrogen.png"
+					alt="Green Hydrogen Ship"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">Exporting Green Hydrogen</h3>
+					<p class="cardDesc">Postgraduate research project of the techno-economic analysis of the export of Green Hydroegn</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>
+			<article>
+			<a href="./taskanalysis">
+			  <div class="card">
+				 <img
+					src="assets/taskanalysis.png"
+					alt="Back of Head with electronics board"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">Task Analysis</h3>
+					<p class="cardDesc">Undergraduate research project into automatic classifcation of activity based on head movement</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>
+			<article>	
+			<a href="./ProbabilisticChess">
+			  <div class="card">
+				 <img
+					src="assets/Chess.png"
+					alt="Chess Pieces"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">ProbabilisticChess</h3>
+					<p class="cardDesc">Android App implementation of modified chess rules with probability</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>
+			<article>
+			<a href="./AustralianElo">
+			  <div class="card">
+				 <img
+					src="assets/Elo.png"
+					alt="Chess Pieces"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">AustralianElo</h3>
+					<p class="cardDesc">Australian Sports Predictions</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>			
+			<article>
+			<a href="./SignalProcessingCup">
+			  <div class="card">
+				 <img
+					src="assets/PPG.png"
+					alt="Smart Watch with PPG signal"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">Signal Processing Cup - PPG</h3>
+					<p class="cardDesc">Signal Processing Cup - PPG</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>	
+			<article>
+			<a href="./NeurodegenerationClassification">
+			  <div class="card">
+				 <img
+					src="assets/Brain.png"
+					alt="Brain MRI Image"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">Automatic Neurodegeneration Classification</h3>
+					<p class="cardDesc">Automatic Neurodegeneration Classification</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>		
+			<article>
+			<a href="./blog.html">
+			  <div class="card">
+				 <img
+					src="assets/Blog.png"
+					alt="Rob in Ice Tunnel"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">Blog</h3>
+					<p class="cardDesc">Blog</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>	
+			<article>
+			<a href="./About.html">
+			  <div class="card">
+				 <img
+					src="assets/Rob.png"
+					alt="Photo of Rob"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">About Me</h3>
+					<p class="cardDesc">About Me</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>		
+			<article>
+			<a href="./Contact.html">
+			  <div class="card">
+				 <img
+					src="assets/Contact.png"
+					alt="Rob On Thin Ice"
+					class="cardImage"
+					width="1000"
+					height="667" >
+				 <div class="cardBottom">
+					<h3 class="cardTitle">Contact Me</h3>
+					<p class="cardDesc">Contact Me</p>
+				 </div>
+			  </div>
+			</a>		
+			</article>			
+		</div>	
     </div>
-
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">

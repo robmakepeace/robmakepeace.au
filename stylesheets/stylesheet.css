@@ -264,9 +264,16 @@ Full-Width Styles
   width: 100%;
 }
 
-.inner {
+.inner2 {
   position: relative;
   max-width: 640px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.inner {
+  position: relative;
+  max-width: 80%;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -369,13 +376,40 @@ Full-Width Styles
 .tar_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat top right;
 }
-
+#mymenu {
+  font-size: 24px;
+  font-weight: bold;
+  background: none;
+  text-shadow: #111 0px 0px 10px;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+#mymenu_item {
+  padding: 10px 10px 10px 10px;
+  color:#ffffff
+}
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
-
+#photos {
+  background: #D3D3D3;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+#projects {
+  background: #f2f2f2;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+#admin {
+  background: #D3D3D3;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
 #main_content {
   padding-top: 40px;
 }
@@ -384,8 +418,12 @@ Full-Width Styles
   background: #212121;
 }
 
-
-
+iframe {
+	height: 80vh;
+}
+embed {
+	height: 80vh;
+}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
